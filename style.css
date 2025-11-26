@@ -161,6 +161,15 @@ body {
 
 }
 
+@media(max-width: 360px) {
+  .text h1 {
+    color: rgb(255, 204, 0);
+    font-size: 40px;
+    letter-spacing: 15px;
+
+  }
+}
+
 .text h1 span {
   color: #fff;
 }
@@ -305,6 +314,7 @@ body {
 
     width: 1330%;
   }
+
 }
 
 .menu-section .menu-list .menu-items img {
@@ -405,11 +415,19 @@ textarea {
   .contact-form form input,
   textarea {
     display: flex;
+    width: 80%;
+    height: 40px;
   }
 
   .section-title {
     font-size: 2.5rem;
 
+
+  }
+
+  .contact-us .contact-details {
+    font-size: 15px;
+    display: flex;
 
   }
 }
@@ -421,7 +439,7 @@ textarea {
 }
 
 .contact-us .contact-details {
-  max-width: 40%;
+  max-width: 20%;
   display: flex;
   flex-direction: column;
 }
@@ -453,6 +471,7 @@ textarea {
 }
 
 .footer {
+
   background-color: rgba(255, 204, 0, 0.925);
   padding: 20px 30px;
 }
@@ -461,7 +480,6 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
 
 .footer .section-content .footer-links ul {
@@ -472,4 +490,13 @@ textarea {
   justify-content: space-between;
   gap: 20px;
 
+}
+
+@media(max-width: 800px) {
+  .footer .section-content .footer-links ul {
+    display: block;
+    margin-bottom: 90px;
+
+
+  }
 }
